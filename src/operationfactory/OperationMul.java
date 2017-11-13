@@ -1,9 +1,9 @@
-package operationFactory;
+package operationfactory;
 
 /**
- * 相减
+ * 相乘
  */
-public class OperationSub extends Operate {
+public class OperationMul extends Operate {
 
     @Override
     protected String getResult() {
