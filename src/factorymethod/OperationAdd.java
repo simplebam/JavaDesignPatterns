@@ -1,4 +1,4 @@
-package operationfactory;
+package factorymethod;
 
 /**
  * 相加

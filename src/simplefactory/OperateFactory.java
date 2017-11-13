@@ -1,4 +1,4 @@
-package operationfactory;
+package simplefactory;
 
 /**
  * 操作工厂

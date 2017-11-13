@@ -1,4 +1,4 @@
-package operationfactory;
+package simplefactory;
 
 public class Operate {
     public int numA;
