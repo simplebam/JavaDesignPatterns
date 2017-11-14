@@ -1,11 +1,7 @@
 package prototype;
 
-import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
-import com.sun.xml.internal.messaging.saaj.util.ByteOutputStream;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 
 public class Resume implements Cloneable {
     private String name;
@@ -52,11 +48,11 @@ public class Resume implements Cloneable {
      */
     public Object deepClone() {
         try {
-            ByteOutputStream baos = new ByteOutputStream();
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
             ObjectOutputStream oos = new ObjectOutputStream(baos);
             oos.writeObject(this);
 
-            ByteInputStream bis = new ByteInputStream();
+            ByteArrayInputStream bis = new ByteArrayInputStream(baos.toByteArray());
             ObjectInputStream ois = new ObjectInputStream(bis);
             return ois.readObject();
         } catch (IOException | ClassNotFoundException e) {
