@@ -1,5 +1,9 @@
 package iterator;
 
+/**
+ * Java设计模式系列之迭代器模式 - 菜鸟奋斗史 - 博客园
+ * https://www.cnblogs.com/ysw-go/p/5384516.html
+ */
 public class Test {
     public static void main(String... args) {
 
