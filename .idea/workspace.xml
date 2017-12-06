@@ -1,154 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="335df039-1ba5-4845-83a3-88d058baaa12" name="Default" comment="增加了命令模式">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="335df039-1ba5-4845-83a3-88d058baaa12" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/barbecuer/BakeChickenWingCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/barbecuer/BakeMuttonCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/barbecuer/Barbecuer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/barbecuer/Command.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/barbecuer/Test.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/barbecuer/Waitor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/base/Command.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/base/ConcreteCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/base/Invoker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/base/Receiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/command/base/Test.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/basketball/Center.java" afterPath="$PROJECT_DIR$/src/adapter/basketball/Center.java" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/basketball/ForeignCenter.java" afterPath="$PROJECT_DIR$/src/adapter/basketball/ForeignCenter.java" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/basketball/Forwards.java" afterPath="$PROJECT_DIR$/src/adapter/basketball/Forwards.java" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/basketball/Guards.java" afterPath="$PROJECT_DIR$/src/adapter/basketball/Guards.java" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/basketball/Player.java" afterPath="$PROJECT_DIR$/src/adapter/basketball/Player.java" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/basketball/Test.java" afterPath="$PROJECT_DIR$/src/adapter/basketball/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/basketball/Translator.java" afterPath="$PROJECT_DIR$/src/adapter/basketball/Translator.java" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/iphonex/AdapterImpl.java" afterPath="$PROJECT_DIR$/src/adapter/iphonex/AdapterImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/iphonex/IPhoneX.java" afterPath="$PROJECT_DIR$/src/adapter/iphonex/IPhoneX.java" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/iphonex/Test.java" afterPath="$PROJECT_DIR$/src/adapter/iphonex/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/iphonex/ThreePlugs.java" afterPath="$PROJECT_DIR$/src/adapter/iphonex/ThreePlugs.java" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/iphonex/TwoPlugs.java" afterPath="$PROJECT_DIR$/src/adapter/iphonex/TwoPlugs.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/base/Abstraction.java" afterPath="$PROJECT_DIR$/src/bridge/base/Abstraction.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/base/ConcreteImplementorA.java" afterPath="$PROJECT_DIR$/src/bridge/base/ConcreteImplementorA.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/base/ConcreteImplementorB.java" afterPath="$PROJECT_DIR$/src/bridge/base/ConcreteImplementorB.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/base/Implementor.java" afterPath="$PROJECT_DIR$/src/bridge/base/Implementor.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/base/RefinedAbstraction.java" afterPath="$PROJECT_DIR$/src/bridge/base/RefinedAbstraction.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/base/Test.java" afterPath="$PROJECT_DIR$/src/bridge/base/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/phone/HandsetAddressList.java" afterPath="$PROJECT_DIR$/src/bridge/phone/HandsetAddressList.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/phone/HandsetBrand.java" afterPath="$PROJECT_DIR$/src/bridge/phone/HandsetBrand.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/phone/HandsetBrandM.java" afterPath="$PROJECT_DIR$/src/bridge/phone/HandsetBrandM.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/phone/HandsetBrandN.java" afterPath="$PROJECT_DIR$/src/bridge/phone/HandsetBrandN.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/phone/HandsetGame.java" afterPath="$PROJECT_DIR$/src/bridge/phone/HandsetGame.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/phone/HandsetSoft.java" afterPath="$PROJECT_DIR$/src/bridge/phone/HandsetSoft.java" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/phone/Test.java" afterPath="$PROJECT_DIR$/src/bridge/phone/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/builder/Builder.java" afterPath="$PROJECT_DIR$/src/builder/Builder.java" />
-      <change beforePath="$PROJECT_DIR$/src/builder/ConcreteBuilderA.java" afterPath="$PROJECT_DIR$/src/builder/ConcreteBuilderA.java" />
-      <change beforePath="$PROJECT_DIR$/src/builder/ConcreteBuilderB.java" afterPath="$PROJECT_DIR$/src/builder/ConcreteBuilderB.java" />
-      <change beforePath="$PROJECT_DIR$/src/builder/Director.java" afterPath="$PROJECT_DIR$/src/builder/Director.java" />
-      <change beforePath="$PROJECT_DIR$/src/builder/Product.java" afterPath="$PROJECT_DIR$/src/builder/Product.java" />
-      <change beforePath="$PROJECT_DIR$/src/builder/Test.java" afterPath="$PROJECT_DIR$/src/builder/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/builder/extern/PersonBuilder.java" afterPath="$PROJECT_DIR$/src/builder/extern/PersonBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/src/builder/extern/PersonDirector.java" afterPath="$PROJECT_DIR$/src/builder/extern/PersonDirector.java" />
-      <change beforePath="$PROJECT_DIR$/src/builder/extern/PersonFatBuilder.java" afterPath="$PROJECT_DIR$/src/builder/extern/PersonFatBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/src/builder/extern/PersonThinBuilder.java" afterPath="$PROJECT_DIR$/src/builder/extern/PersonThinBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/src/builder/extern/Test.java" afterPath="$PROJECT_DIR$/src/builder/extern/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/component/base/Component.java" afterPath="$PROJECT_DIR$/src/component/base/Component.java" />
-      <change beforePath="$PROJECT_DIR$/src/component/base/Composite.java" afterPath="$PROJECT_DIR$/src/component/base/Composite.java" />
-      <change beforePath="$PROJECT_DIR$/src/component/base/Leaf.java" afterPath="$PROJECT_DIR$/src/component/base/Leaf.java" />
-      <change beforePath="$PROJECT_DIR$/src/component/base/Test.java" afterPath="$PROJECT_DIR$/src/component/base/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/component/company/Company.java" afterPath="$PROJECT_DIR$/src/component/company/Company.java" />
-      <change beforePath="$PROJECT_DIR$/src/component/company/ConcreteCompany.java" afterPath="$PROJECT_DIR$/src/component/company/ConcreteCompany.java" />
-      <change beforePath="$PROJECT_DIR$/src/component/company/FinanceDepartment.java" afterPath="$PROJECT_DIR$/src/component/company/FinanceDepartment.java" />
-      <change beforePath="$PROJECT_DIR$/src/component/company/HRDepartment.java" afterPath="$PROJECT_DIR$/src/component/company/HRDepartment.java" />
-      <change beforePath="$PROJECT_DIR$/src/component/company/Test.java" afterPath="$PROJECT_DIR$/src/component/company/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/decorate/Coder.java" afterPath="$PROJECT_DIR$/src/decorate/Coder.java" />
-      <change beforePath="$PROJECT_DIR$/src/decorate/FreshMan.java" afterPath="$PROJECT_DIR$/src/decorate/FreshMan.java" />
-      <change beforePath="$PROJECT_DIR$/src/decorate/Test.java" afterPath="$PROJECT_DIR$/src/decorate/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/decorate/TrainedMan.java" afterPath="$PROJECT_DIR$/src/decorate/TrainedMan.java" />
-      <change beforePath="$PROJECT_DIR$/src/facade/Fund.java" afterPath="$PROJECT_DIR$/src/facade/Fund.java" />
-      <change beforePath="$PROJECT_DIR$/src/facade/NationalDebt1.java" afterPath="$PROJECT_DIR$/src/facade/NationalDebt1.java" />
-      <change beforePath="$PROJECT_DIR$/src/facade/NationalDebt2.java" afterPath="$PROJECT_DIR$/src/facade/NationalDebt2.java" />
-      <change beforePath="$PROJECT_DIR$/src/facade/Stock1.java" afterPath="$PROJECT_DIR$/src/facade/Stock1.java" />
-      <change beforePath="$PROJECT_DIR$/src/facade/Stock2.java" afterPath="$PROJECT_DIR$/src/facade/Stock2.java" />
-      <change beforePath="$PROJECT_DIR$/src/facade/Stock3.java" afterPath="$PROJECT_DIR$/src/facade/Stock3.java" />
-      <change beforePath="$PROJECT_DIR$/src/facade/Test.java" afterPath="$PROJECT_DIR$/src/facade/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethod/AddFactory.java" afterPath="$PROJECT_DIR$/src/factorymethod/AddFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethod/DivFactory.java" afterPath="$PROJECT_DIR$/src/factorymethod/DivFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethod/IFactory.java" afterPath="$PROJECT_DIR$/src/factorymethod/IFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethod/MulFactory.java" afterPath="$PROJECT_DIR$/src/factorymethod/MulFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethod/Operate.java" afterPath="$PROJECT_DIR$/src/factorymethod/Operate.java" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethod/OperationAdd.java" afterPath="$PROJECT_DIR$/src/factorymethod/OperationAdd.java" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethod/OperationDiv.java" afterPath="$PROJECT_DIR$/src/factorymethod/OperationDiv.java" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethod/OperationMul.java" afterPath="$PROJECT_DIR$/src/factorymethod/OperationMul.java" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethod/OperationSub.java" afterPath="$PROJECT_DIR$/src/factorymethod/OperationSub.java" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethod/SubFactory.java" afterPath="$PROJECT_DIR$/src/factorymethod/SubFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethod/Test.java" afterPath="$PROJECT_DIR$/src/factorymethod/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/iterator/ConcreteAggregate.java" afterPath="$PROJECT_DIR$/src/iterator/ConcreteAggregate.java" />
-      <change beforePath="$PROJECT_DIR$/src/iterator/ConcreteIterator.java" afterPath="$PROJECT_DIR$/src/iterator/ConcreteIterator.java" />
-      <change beforePath="$PROJECT_DIR$/src/iterator/Iterator.java" afterPath="$PROJECT_DIR$/src/iterator/Iterator.java" />
-      <change beforePath="$PROJECT_DIR$/src/iterator/List.java" afterPath="$PROJECT_DIR$/src/iterator/List.java" />
-      <change beforePath="$PROJECT_DIR$/src/iterator/Test.java" afterPath="$PROJECT_DIR$/src/iterator/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/memento/game/GameRole.java" afterPath="$PROJECT_DIR$/src/memento/game/GameRole.java" />
-      <change beforePath="$PROJECT_DIR$/src/memento/game/RoleStateCaretaker.java" afterPath="$PROJECT_DIR$/src/memento/game/RoleStateCaretaker.java" />
-      <change beforePath="$PROJECT_DIR$/src/memento/game/RoleStateMemento.java" afterPath="$PROJECT_DIR$/src/memento/game/RoleStateMemento.java" />
-      <change beforePath="$PROJECT_DIR$/src/memento/game/Test.java" afterPath="$PROJECT_DIR$/src/memento/game/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/memento/origin/Caretaker.java" afterPath="$PROJECT_DIR$/src/memento/origin/Caretaker.java" />
-      <change beforePath="$PROJECT_DIR$/src/memento/origin/Memento.java" afterPath="$PROJECT_DIR$/src/memento/origin/Memento.java" />
-      <change beforePath="$PROJECT_DIR$/src/memento/origin/Originator.java" afterPath="$PROJECT_DIR$/src/memento/origin/Originator.java" />
-      <change beforePath="$PROJECT_DIR$/src/memento/origin/Test.java" afterPath="$PROJECT_DIR$/src/memento/origin/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/ConcreteObserver.java" afterPath="$PROJECT_DIR$/src/observer/ConcreteObserver.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/ConcreteSubject.java" afterPath="$PROJECT_DIR$/src/observer/ConcreteSubject.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/Observer.java" afterPath="$PROJECT_DIR$/src/observer/Observer.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/Subject.java" afterPath="$PROJECT_DIR$/src/observer/Subject.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/Test.java" afterPath="$PROJECT_DIR$/src/observer/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation/Boss.java" afterPath="$PROJECT_DIR$/src/observer/delegation/Boss.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation/ComicReader.java" afterPath="$PROJECT_DIR$/src/observer/delegation/ComicReader.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation/GirlClassMate.java" afterPath="$PROJECT_DIR$/src/observer/delegation/GirlClassMate.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation/MainClass.java" afterPath="$PROJECT_DIR$/src/observer/delegation/MainClass.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation/NbaWatcher.java" afterPath="$PROJECT_DIR$/src/observer/delegation/NbaWatcher.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation/Notifier.java" afterPath="$PROJECT_DIR$/src/observer/delegation/Notifier.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation1/DeleObserverA.java" afterPath="$PROJECT_DIR$/src/observer/delegation1/DeleObserverA.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation1/DeleObserverB.java" afterPath="$PROJECT_DIR$/src/observer/delegation1/DeleObserverB.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation1/Event.java" afterPath="$PROJECT_DIR$/src/observer/delegation1/Event.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation1/EventHandler.java" afterPath="$PROJECT_DIR$/src/observer/delegation1/EventHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation1/GoodNofitier.java" afterPath="$PROJECT_DIR$/src/observer/delegation1/GoodNofitier.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation1/Notifier.java" afterPath="$PROJECT_DIR$/src/observer/delegation1/Notifier.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/delegation1/Test.java" afterPath="$PROJECT_DIR$/src/observer/delegation1/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/extern/Student.java" afterPath="$PROJECT_DIR$/src/observer/extern/Student.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/extern/Teacher.java" afterPath="$PROJECT_DIR$/src/observer/extern/Teacher.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/extern/Test.java" afterPath="$PROJECT_DIR$/src/observer/extern/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/prototype/Resume.java" afterPath="$PROJECT_DIR$/src/prototype/Resume.java" />
-      <change beforePath="$PROJECT_DIR$/src/prototype/Test.java" afterPath="$PROJECT_DIR$/src/prototype/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/prototype/Work.java" afterPath="$PROJECT_DIR$/src/prototype/Work.java" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/IGivegift.java" afterPath="$PROJECT_DIR$/src/proxy/IGivegift.java" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/Proxy.java" afterPath="$PROJECT_DIR$/src/proxy/Proxy.java" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/Pursuit.java" afterPath="$PROJECT_DIR$/src/proxy/Pursuit.java" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/SchoolGirl.java" afterPath="$PROJECT_DIR$/src/proxy/SchoolGirl.java" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/Test.java" afterPath="$PROJECT_DIR$/src/proxy/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/simplefactory/Operate.java" afterPath="$PROJECT_DIR$/src/simplefactory/Operate.java" />
-      <change beforePath="$PROJECT_DIR$/src/simplefactory/OperateFactory.java" afterPath="$PROJECT_DIR$/src/simplefactory/OperateFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/simplefactory/OperationAdd.java" afterPath="$PROJECT_DIR$/src/simplefactory/OperationAdd.java" />
-      <change beforePath="$PROJECT_DIR$/src/simplefactory/OperationDiv.java" afterPath="$PROJECT_DIR$/src/simplefactory/OperationDiv.java" />
-      <change beforePath="$PROJECT_DIR$/src/simplefactory/OperationMul.java" afterPath="$PROJECT_DIR$/src/simplefactory/OperationMul.java" />
-      <change beforePath="$PROJECT_DIR$/src/simplefactory/OperationSub.java" afterPath="$PROJECT_DIR$/src/simplefactory/OperationSub.java" />
-      <change beforePath="$PROJECT_DIR$/src/simplefactory/Test.java" afterPath="$PROJECT_DIR$/src/simplefactory/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/singleton/Singleton.java" afterPath="$PROJECT_DIR$/src/singleton/Singleton.java" />
-      <change beforePath="$PROJECT_DIR$/src/state/ConcreteStateA.java" afterPath="$PROJECT_DIR$/src/state/ConcreteStateA.java" />
-      <change beforePath="$PROJECT_DIR$/src/state/ConcreteStateB.java" afterPath="$PROJECT_DIR$/src/state/ConcreteStateB.java" />
-      <change beforePath="$PROJECT_DIR$/src/state/Context.java" afterPath="$PROJECT_DIR$/src/state/Context.java" />
-      <change beforePath="$PROJECT_DIR$/src/state/State.java" afterPath="$PROJECT_DIR$/src/state/State.java" />
-      <change beforePath="$PROJECT_DIR$/src/state/Test.java" afterPath="$PROJECT_DIR$/src/state/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/ConcreteStrategyA.java" afterPath="$PROJECT_DIR$/src/strategy/ConcreteStrategyA.java" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/ConcreteStrategyB.java" afterPath="$PROJECT_DIR$/src/strategy/ConcreteStrategyB.java" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/ConcreteStrategyC.java" afterPath="$PROJECT_DIR$/src/strategy/ConcreteStrategyC.java" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/Context.java" afterPath="$PROJECT_DIR$/src/strategy/Context.java" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/ContextFinal.java" afterPath="$PROJECT_DIR$/src/strategy/ContextFinal.java" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/Strategy.java" afterPath="$PROJECT_DIR$/src/strategy/Strategy.java" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/test.java" afterPath="$PROJECT_DIR$/src/strategy/test.java" />
-      <change beforePath="$PROJECT_DIR$/src/templatemethod/Test.java" afterPath="$PROJECT_DIR$/src/templatemethod/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/templatemethod/TestPaper.java" afterPath="$PROJECT_DIR$/src/templatemethod/TestPaper.java" />
-      <change beforePath="$PROJECT_DIR$/src/templatemethod/TestPaperA.java" afterPath="$PROJECT_DIR$/src/templatemethod/TestPaperA.java" />
-      <change beforePath="$PROJECT_DIR$/src/templatemethod/TestPaperB.java" afterPath="$PROJECT_DIR$/src/templatemethod/TestPaperB.java" />
-      <change beforePath="$PROJECT_DIR$/src/templatemethod/TestPaperC.java" afterPath="$PROJECT_DIR$/src/templatemethod/TestPaperC.java" />
-      <change beforePath="$PROJECT_DIR$/test.iml" afterPath="$PROJECT_DIR$/test.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -188,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Command.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Command.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/command/base/Command.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -197,16 +62,6 @@
                 <element signature="e#128#129#0" expanded="true" />
                 <element signature="e#168#169#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -862,7 +717,7 @@
       <updated>1512526206902</updated>
       <workItem from="1512526210384" duration="1695000" />
       <workItem from="1512560847919" duration="225000" />
-      <workItem from="1512561108953" duration="2889000" />
+      <workItem from="1512561108953" duration="2963000" />
     </task>
     <task id="LOCAL-00001" summary="增加了命令模式">
       <created>1512563677690</created>
@@ -871,11 +726,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512563677690</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加了命令模式">
+      <created>1512564032147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512564032147</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4809000" />
+    <option name="totallyTimeSpent" value="4883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -893,7 +755,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1128,6 +990,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/command/base/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1136,14 +1006,6 @@
             <element signature="e#128#129#0" expanded="true" />
             <element signature="e#168#169#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
