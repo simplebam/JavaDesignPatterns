@@ -1,5 +1,8 @@
 package command.base;
 
+/**
+ * 命令模式
+ */
 public class Test {
 
     public static void main(String... args) {

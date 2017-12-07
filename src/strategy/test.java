@@ -1,5 +1,8 @@
 package strategy;
 
+/**
+ * 策略模式
+ */
 public class test {
 
     private static Context context;

@@ -1,5 +1,8 @@
 package memento.game;
 
+/**
+ * 备忘录模式
+ */
 public class Test {
     public static void main(String... args) {
 

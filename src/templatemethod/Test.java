@@ -1,5 +1,8 @@
 package templatemethod;
 
+/**
+ * 模板方法模式
+ */
 public class Test {
     public static void main(String... args) {
         TestPaper paper = new TestPaperA();

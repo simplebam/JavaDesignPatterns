@@ -1,5 +1,8 @@
 package prototype;
 
+/**
+ * 原型模式
+ */
 public class Test {
     public static void main(String... args) {
         Resume resume = new Resume("林志玲");
