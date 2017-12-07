@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="335df039-1ba5-4845-83a3-88d058baaa12" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/base/ConcreteFlyWeight.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/base/FlyWeight.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/base/FlyWeightFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/base/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/base/UnsharedConcreteFlyWeight.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/website1/ConcreteWebsite.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/website1/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/website1/Website.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/website1/WebsiteFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/website2/ConcreteWebsite.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/website2/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/website2/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/website2/Website.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/website2/WebsiteFactory.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -36,8 +22,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="224">
-                <caret line="78" column="1" lean-forward="false" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+              <first_editor relative-caret-position="241">
+                <caret line="79" column="48" lean-forward="false" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -108,7 +94,6 @@
         <option value="$PROJECT_DIR$/src/mediator/un/Iraq.java" />
         <option value="$PROJECT_DIR$/src/mediator/un/UnitedNationsSecurityCouncil.java" />
         <option value="$PROJECT_DIR$/src/mediator/un/Test.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/flyweight/FlyWeight.java" />
         <option value="$PROJECT_DIR$/src/flyweight/ConcreteFlyWeight.java" />
         <option value="$PROJECT_DIR$/src/flyweight/UnsharedConcreteFlyWeight.java" />
@@ -125,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/flyweight/website2/WebsiteFactory.java" />
         <option value="$PROJECT_DIR$/src/flyweight/website2/User.java" />
         <option value="$PROJECT_DIR$/src/flyweight/website2/Test.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -818,7 +804,7 @@
       <updated>1512526206902</updated>
       <workItem from="1512526210384" duration="1695000" />
       <workItem from="1512560847919" duration="225000" />
-      <workItem from="1512561108953" duration="14059000" />
+      <workItem from="1512561108953" duration="14523000" />
     </task>
     <task id="LOCAL-00001" summary="增加了命令模式">
       <created>1512563677690</created>
@@ -862,11 +848,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512647024919</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="增加了享元模式">
+      <created>1512650356245</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512650356245</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15979000" />
+    <option name="totallyTimeSpent" value="16443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -917,7 +910,8 @@
     <MESSAGE value="增加了职责链模式" />
     <MESSAGE value="为每种模式的示例代码Test添加了模式名字,便于复习快速对应模式" />
     <MESSAGE value="增加了中介者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了中介者模式" />
+    <MESSAGE value="增加了享元模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了享元模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1391,8 +1385,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="224">
-            <caret line="78" column="1" lean-forward="false" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+          <first_editor relative-caret-position="241">
+            <caret line="79" column="48" lean-forward="false" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
             <folding />
           </first_editor>
           <second_editor />
